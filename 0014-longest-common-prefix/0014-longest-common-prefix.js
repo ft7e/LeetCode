@@ -4,7 +4,7 @@
  */
 var longestCommonPrefix = function(strs) {
     if (strs.length === 0) {
-        return ""; // Handle the case of an empty input array
+        return "";
     }
     
     let longestPrefix = "";
@@ -19,5 +19,5 @@ var longestCommonPrefix = function(strs) {
         longestPrefix += firstWord[i];
     }
     
-    return longestPrefix; // Return the longest common prefix
+    return longestPrefix;
 };
